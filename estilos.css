@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Arimo", sans-serif;
+    background-color: rgb(255, 228, 196);
+    margin: 5%;
+    line-height: 1.6;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+header{
+    text-align: center;
+    color: rgb(54, 176, 180);
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    background-image: url('img/fondoo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header figure img{
+    border-radius: 50%;
+    border: 5px solid #f00909 ;
+    box-shadow: 0 0 10px;
+}
+
+header h1{
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+header h2{
+    font-size: 1.2em;
+    opacity: 0.7;
+}
