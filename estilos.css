@@ -7,7 +7,7 @@
 
 body{
     font-family: "Arimo", sans-serif;
-    background-color: rgb(255, 228, 196);
+    background-color: rgb(48, 45, 41);
     margin: 5%;
     line-height: 1.6;
 }
@@ -16,15 +16,15 @@ main{
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
 header{
     text-align: center;
-    color: rgb(54, 176, 180);
+    color: rgb(0, 0, 0);
     padding: 20px 0;
     border-radius: 8px 8px 0 0;
-    background-image: url('img/fondoo.png');
+    background-image: url('img/FondoEstilo.jpeg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,8 +32,8 @@ header{
 
 header figure img{
     border-radius: 50%;
-    border: 5px solid #f00909 ;
-    box-shadow: 0 0 10px;
+    border: 5px solid #000000 ;
+    box-shadow: 0 0 110px;
 }
 
 header h1{
@@ -47,7 +47,7 @@ header h2{
 }
 
 .container{
-    background-color: blue;
+    background-color: rgb(30, 46, 61);
     width: 80%;
     margin: 0 auto;
     position: relative;
@@ -55,13 +55,13 @@ header h2{
 }
 
 .contenedor_foto_perfil{
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
     display: inline-block;
     vertical-align: middle;
-    border: 7px solid #0ebaba;
+    border: 7px solid #06ecec;
     margin: 5%;
     box-shadow: 0 0 20px rgb(0,0,0,0.5);
 }
@@ -80,5 +80,52 @@ header h2{
     display: inline-block;
     vertical-align: middle;
     margin-left: 1%;
-    text-shadow: 0 0 20px rgba(0,0,0,0.5);
+    text-shadow: 0 0 20px rgba(0, 229, 241, 0.5);
+}
+
+h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+section{
+    background-color: rgb(250, 243, 243);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+section hr{
+    border: 0;
+    height: 2px;
+    background: #084dee;
+    margin: 10px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    padding: 5px;
+}
+
+i{
+    color: #18a7ce;
+    margin-right: 8px;
+}
+
+address p{
+margin: 5px 0;
+}
+
+address a{
+    color: #000dff;
+    text-decoration: none;
+}
+
+article{
+    margin-bottom: 15px;
 }
